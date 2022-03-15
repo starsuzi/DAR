@@ -1,0 +1,12 @@
+# @package _group_
+
+dpr_wiki:
+  _target_: dar.data.retriever_data.CsvCtxSrc
+  file: data.wikipedia_split.psgs_w100
+  id_prefix: 'wiki:'
+
+
+dpr_wiki_seen_unseen:
+  _target_: dar.data.retriever_data.CsvCtxSrc
+  file: '/home/syjeong/DocExpan/Unseen/DPR/downloads/data/wikipedia_split/psgs_w100_seen_unseen_same_other_neg_3000.tsv'
+  id_prefix: 'wiki:'
