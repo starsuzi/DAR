@@ -15,11 +15,11 @@ conda install pytorch cudatoolkit=11.1 -c pytorch
 cd DAR
 pip install -r requirements.txt
 ```
-If this error shows up,
+If such an error shows up,
 ```bash
 OSError: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
 ```
-then execute command as follows:
+then execute the following command:
 ```bash
 python -m spacy download en
 ```
@@ -27,7 +27,7 @@ python -m spacy download en
 
 ### 1. Train dense retriever
 
-We use a single GeForce RTX 3090 GPU having 24GB memory.
+We use a single GeForce RTX 3090 GPU having 24GB memory to train DAR with a batch size of 32.
 
 ```bash
 sh 0_train_retriever.sh
