@@ -34,7 +34,7 @@ sh 0_train_retriever.sh
 ```
 ### 2. Generate dense embeddings
 
-This step for generating dense embeddings may require a parallelizable process.
+This step is for generating dense embeddings may require a parallelizable process.
 
 ```bash
 sh 1_gen_emb.sh
