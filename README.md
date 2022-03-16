@@ -52,7 +52,10 @@ sh 3_read.sh
 ## Citation
 
 ```BibTex
-@inproceedings{
-    
+@inproceedings{jeong2022augmenting,
+   title={Augmenting Document Representations for Dense Retrieval with Interpolation and Perturbation},
+   author={Soyeong Jeong and Jinheon Baek and Sukmin Cho and Sung Ju Hwang and Jong C. Park},
+   booktitle={Association for Computational Linguistics (ACL)},
+   year={2022}
 }
 ```
